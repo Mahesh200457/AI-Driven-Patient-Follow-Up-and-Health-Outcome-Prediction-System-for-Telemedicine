@@ -4,6 +4,36 @@ An interactive web-based dashboard for analyzing clinical data, assessing patien
 
 ---
 
+---
+
+
+
+### 🔹 Dashboard Overview  
+![Dashboard Main](https://github.com/Mahesh200457/Doctor-Patient-Dashboard/blob/main/Screenshot%20(98).png?raw=true)
+
+### 🔹 Symptom & Disease Visualization  
+![Charts](https://github.com/Mahesh200457/Doctor-Patient-Dashboard/blob/main/Screenshot%20(99).png)
+
+### 🔹 High-Risk Filter & Appointment UI  
+![Symptom Filter](https://github.com/Mahesh200457/Doctor-Patient-Dashboard/blob/main/Screenshot%20(100).png?raw=true)
+
+### 🔹 Calendar Appointment Confirmation  
+![Google Calendar](https://github.com/Mahesh200457/Doctor-Patient-Dashboard/blob/main/Screenshot%20(101).png?raw=true)
+
+---
+
+## 🧠 How It Works
+
+1. User selects a **symptom category** and then filters by specific symptoms.
+2. App displays **high-risk patients** who match all selected symptoms.
+3. User selects a **date**, clicks **Schedule Appointment**, and the app:
+   - Sends patient data to Google Calendar
+   - Creates a consultation event from 10:00 AM to 10:30 AM for each match
+
+---
+
+
+
 ## 🚀 Features
 
 - 🔍 **Symptom-Based Risk Assessment**
@@ -74,6 +104,13 @@ The app uses **OAuth 2.0** to authenticate Google Calendar API:
 > 📌 Note: API access must be enabled in your Google Cloud Project.
 
 ---
+## ▶️ Run the App Locally
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/Mahesh200457/Doctor-Patient-Dashboard.git
+cd Doctor-Patient-Dashboard
 
 ## 🧪 Installation & Usage
 
